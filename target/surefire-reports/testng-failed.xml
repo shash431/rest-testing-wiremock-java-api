@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Command line suite]" verbose="0">
+  <test name="Command line test" preserve-order="false">
+    <classes>
+      <class name="org.baeldung.rest.GithubBasicLiveTest"/>
+      <class name="com.baeldung.rest.karate.KarateIntegrationTest"/>
+      <class name="com.baeldung.rest.cucumber.CucumberIntegrationTest"/>
+      <class name="com.baeldung.rest.jbehave.GithubUserResponsePayloadStoryLiveTest"/>
+      <class name="com.baeldung.rest.jbehave.IncreaseStoryLiveTest"/>
+      <class name="com.baeldung.rest.jbehave.GithubUserResponseMediaTypeStoryLiveTest"/>
+      <class name="com.baeldung.rest.jbehave.GithubUserNotFoundStoryLiveTest"/>
+      <class name="com.baeldung.rest.wiremock.introduction.JUnitManagedIntegrationTest"/>
+      <class name="com.baeldung.rest.wiremock.introduction.ProgrammaticallyManagedLiveTest"/>
+      <class name="com.baeldung.rest.wiremock.scenario.WireMockScenarioExampleIntegrationTest"/>
+    </classes>
+  </test> <!-- Command line test -->
+</suite> <!-- Failed suite [Command line suite] -->
